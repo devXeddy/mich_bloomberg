@@ -1,0 +1,258 @@
+/*import dei font utilizzati*/
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=El+Messiri&family=Indie+Flower&family=Lobster&family=Marck+Script&family=Russo+One&display=swap');
+
+/*stile del body di ogni pagina*/
+body{
+
+    background-image: url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iNQ0jvNPrYNI/v0/1920x1080.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    margin: 0;
+  
+}
+
+/*inizio style index*/
+
+h1{
+
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    margin-top: 1%;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: rgb(219, 219, 219);
+    text-shadow: 0 0 10px #7674ffa9;
+    
+
+
+}
+
+
+h2{
+
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+    margin-top: -1%;
+
+}
+
+h3{
+
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 90%;
+    letter-spacing: 1px;
+
+}
+
+
+#mich-index{
+
+    margin-top: -0.5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.788);
+    margin-left: 42%;
+    width: 15%;
+}
+
+
+.video{
+
+    margin-top: 3%;
+    margin-left: 17%;
+
+}
+
+#video2{
+
+    padding-left: 5.8%;
+}
+
+.p{
+    margin-left: 25%;
+
+}
+
+#par1{
+
+    padding-left: 50%;
+    margin-top: -2.3%;
+
+}
+
+/*fine style index*/
+
+
+/*inizio style del menu*/
+.menu{
+
+    list-style-type: none;
+    padding: 0.2%;
+    background-color: rgba(3, 3, 3, 0.637);
+
+
+    
+    
+}
+
+.menu li{
+
+    display: inline;
+    padding: 0.5%;
+    border: 1px solid rgb(78, 78, 78);
+    margin-left: 0.5%;
+    background-color: rgba(28, 27, 36, 0.801);
+    border-radius: 5px;
+
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+
+    color: white;
+}
+
+.menu li:hover{
+
+    filter: drop-shadow(0 0 0.75em rgb(76, 64, 179));
+}
+
+/*fine style del menu*/
+
+
+/*inizio style della biografia*/
+
+#h1bio{
+    margin-left: -60%;
+}
+
+
+#h3_biografia{
+
+
+    font-family: 'Courier New', Courier, monospace !important;
+    position: absolute;
+    top: 43%;
+    left: 5%;
+    font-size: 140%;
+
+
+
+}
+
+
+#mich_biografia{
+
+    width: 13%;
+    margin-left: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.788);
+}
+
+
+#p_biografia{
+
+    background-color: rgba(19, 19, 19, 0.801);
+    padding: 5%;
+    text-align: justify;
+    line-height: 200%;
+    
+}
+
+
+.info{
+
+    margin-top: -40.5%;
+    margin-left: 17%;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 100%;
+
+}
+
+/*fine style della biografia*/
+
+
+/*inizio style della politica*/
+
+#pic_bloomberg_politica{
+
+    width: 12%;
+    margin-left: 5%;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.788);
+}
+
+#info-politica{
+
+    position: absolute;
+    top: 20%;
+    left: 18%;
+    font-family: 'El Messiri', sans-serif;
+}
+
+
+#firma-img{
+
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    margin-left: 4%;
+    margin-top: 11%;
+}
+
+
+#p_politica{
+
+    background-color: rgba(19, 19, 19, 0.801);
+    padding: 5%;
+    text-align: justify;
+    line-height: 200%;
+
+
+}
+
+/*fine style della politica*/
+
+
+/*inizio style del terminale*/
+
+#bloomberg-terminal{
+
+    width: 17%;
+    margin-left: 7%;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.788);
+}
+
+#h3-bloomberg-terminal{
+
+    position: absolute;
+    top: 43%;
+    left: 9.5%;
+}
+
+
+#terminal-presentation{
+
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+
+
+#p-terminale{
+
+    background-color: rgba(19, 19, 19, 0.801);
+    padding: 5%;
+    text-align: justify;
+    line-height: 200%;
+
+}
+
+/*fine style del terminale*/
